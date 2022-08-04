@@ -1,0 +1,6 @@
+# a print function that recieves four arguments.
+score_total = int(input("Please enter the total score: "))
+average_score = int(input("Please enter the average score: "))
+print("Total Score: ", str(score_total),"\nScore Total: ", str(average_score)) #Different arguments recieved.
+print("Total Score: " + str(score_total) + "\nAverage Score: " + str(average_score)) #One string as an Argument.
+print(f'Total Score is ${score_total} and Total Average score is ${average_score}') #Formatted Strings
